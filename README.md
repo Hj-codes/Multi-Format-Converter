@@ -1,5 +1,8 @@
 # Multi-Format-Converter
 A versatile Python script for converting images, audio files, and videos to different formats. This script leverages the power of popular Python libraries like Pillow and ffmpeg to provide a comprehensive conversion tool.
+
+![showcase](https://github.com/Hj-codes/Multi-Format-Converter/assets/131331439/8c99fe54-71cf-4ca0-b49f-b4b5707dcacf)
+
 ## Features:
 
 - **Image Conversion:**
@@ -43,9 +46,15 @@ A versatile Python script for converting images, audio files, and videos to diff
     - Save the changes.
     - Right-click on the batch file (`add_registry_entries.bat`) and select "Run as administrator." This will add context menu entries for the supported file formats.
     - **Note:** Adding entries to the Windows Registry requires administrative privileges. Ensure that you run the batch file as an administrator.
+
+   
 6. **Customize File Formats:**
     
     If you want to customize the supported file formats, edit the `add_registry_entries.bat` file and update the `FILE_FORMATS` variable with the desired file extensions.
+   
+    - Should look like this :
+   
+     ![image](https://github.com/Hj-codes/Multi-Format-Converter/assets/131331439/c57d3e25-1209-4ca7-b750-ab7ec49eb206)
 
 ## Dependencies:
 - Pillow: [Documentation](https://pillow.readthedocs.io/en/stable/)
