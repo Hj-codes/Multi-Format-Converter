@@ -39,9 +39,9 @@ if __name__ == "__main__":
     if len(sys.argv) == 3:
         file_path = sys.argv[1]
         output_format = sys.argv[2].lower()
-        image_formats = [".png", ".jpg", ".jpeg", ".gif", ".bmp"]
+        image_formats = [".png", ".jpg", ".jpeg", ".bmp"]
         audio_formats = [".mp3", ".wav"]
-        video_formats = [".mp4", ".avi", ".mkv", ".mov"]
+        video_formats = [".mp4", ".avi", ".mkv", ".mov", ".gif"]
 
         if output_format in image_formats:
             convert_image(file_path, output_format)
